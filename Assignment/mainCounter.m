@@ -11,8 +11,10 @@ function mainCounter()
     counterAttrs = {'Service Time', 'Probability ', 'CDF         ', 'Range       '}; 
     
     % Service Time
-    global counterTimes;
-    serviceTimeInit();
+    counter1Time = [5, 6, 7, 8, 9];
+    counter2Time = [5, 6, 7, 8, 9];
+    counterExTime = [2, 3, 4, 5];
+    counterTimes = {counter1Time, counter2Time, counterExTime};
     
     columnNum1 = numel(counterTimes{1});
     columnNum2 = numel(counterTimes{2});

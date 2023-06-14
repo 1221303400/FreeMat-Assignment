@@ -11,8 +11,9 @@ function mainWork()
     
     myPause();
     while working
+        fprintf('\n ~ Time = %d ~ \n', time);
         work(time);
-
+        
         time = time + 1;
         
         % TO break work
@@ -21,7 +22,7 @@ function mainWork()
         end
     end
     
-    fprintf('\n    ~~~~~ Time = %d ~~~~~', time);
+    fprintf('\n    ~~~~~ Time = %d, shop closed! ~~~~~', time);
     workDisplay();
     disp('Thank you for shopping! ;D');
     myPause();
