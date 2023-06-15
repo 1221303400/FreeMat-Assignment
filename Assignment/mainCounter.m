@@ -11,6 +11,7 @@ function mainCounter()
     counterAttrs = {'Service Time', 'Probability ', 'CDF         ', 'Range       '}; 
     
     % Service Time
+    global counterTimes;
     counter1Time = [5, 6, 7, 8, 9];
     counter2Time = [5, 6, 7, 8, 9];
     counterExTime = [2, 3, 4, 5];
